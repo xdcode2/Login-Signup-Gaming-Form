@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ============= Remixicon ============= -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+        <!-- ============= SwiperJS Stylesheet ============= -->
+        <link rel="stylesheet" href="./assets/css/swiper.css" />
+        <!-- ============= CSS Stylesheet ============= -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- ============= SwiperJS ============= -->
+        <script src="./assets/js/swiper.js"></script>
+        <!-- ============= JavaScript ============= -->
+        <script src="./assets/js/script.js" defer></script>
+        <title>Gaming Form | CodingWeb</title>
+    </head>
+    <body>
+        <div class="app apex">
+            <div class="app__slider swiper">
+                <div class="app__slider-wrapper swiper-wrapper">
+                    <div class="app__slider-slide swiper-slide">
+                        <img src="./assets/images/ApexLegends.jpg" alt="Apex Legends" />
+                    </div>
+                    <div class="app__slider-slide swiper-slide">
+                        <img src="./assets/images/Valorant.jpg" alt="Valorant" />
+                    </div>
+                    <div class="app__slider-slide swiper-slide">
+                        <img src="./assets/images/CyberPunk.jpg" alt="CyberPunk" />
+                    </div>
+                </div>
+            </div>
+            <div class="app__form-wrapper">
+                <div class="app__form-container d-flex align-center">
+                    <!-- ================= Login Form ================= -->
+                    <form class="form login-form d-flex f-column show">
+                        <div class="form__header">
+                            <p class="form__title">log in account</p>
+                            <p class="form__subtitle">welcome back</p>
+                        </div>
+                        <div class="form__group d-flex f-column r-gap-1">
+                            <div class="form__group d-flex f-column r-gap-2">
+                                <div class="form__field">
+                                    <input type="text" class="form__input" placeholder="Enter Email" />
+                                    <div class="form__input-border"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input type="password" class="form__input" placeholder="Enter Password" />
+                                    <div class="form__input-border"></div>
+                                </div>
+                            </div>
+                            <a href="#" class="form__link">forgot password?</a>
+                        </div>
+                        <div class="form__group d-flex f-column r-gap-2">
+                            <button class="form__button filled d-flex align-center justify-center" id="login-btn">
+                                <div class="form__button-bg d-flex align-center justify-center"><p>log in</p></div>
+                                <div class="form__button-border"></div>
+                            </button>
+                            <button class="form__button outlined d-flex align-center justify-center" id="signup-btn">
+                                <div class="form__button-bg d-flex align-center justify-center"><p>sign up</p></div>
+                                <div class="form__button-border"></div>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- ================= Signup Form ================= -->
+                    <form class="form signup-form d-flex f-column">
+                        <div class="form__header">
+                            <p class="form__title">sign up account</p>
+                            <p class="form__subtitle">welcome to our website</p>
+                        </div>
+                        <div class="form__group d-flex f-column r-gap-1">
+                            <div class="form__group d-flex f-column r-gap-2">
+                                <div class="form__field">
+                                    <input type="text" class="form__input" placeholder="Enter user name" />
+                                    <div class="form__input-border"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input type="text" class="form__input" placeholder="Enter email" />
+                                    <div class="form__input-border"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input type="password" class="form__input" placeholder="Enter password" />
+                                    <div class="form__input-border"></div>
+                                </div>
+                            </div>
+                            <div class="form__group d-flex align-center c-gap-1">
+                                <div class="form__check">
+                                    <input type="checkbox" class="form__checkbox d-flex align-center justify-center" id="terms" />
+                                    <div class="form__checkbox-border"></div>
+                                </div>
+                                <label for="terms" class="form__label"> I agree the <a href="#" class="form__link">terms & privacy</a> </label>
+                            </div>
+                        </div>
+                        <div class="form__group d-flex f-column r-gap-2">
+                            <button class="form__button filled d-flex align-center justify-center" id="signup-btn">
+                                <div class="form__button-bg d-flex align-center justify-center"><p>sign up</p></div>
+                                <div class="form__button-border"></div>
+                            </button>
+                            <button class="form__button outlined d-flex align-center justify-center" id="login-btn">
+                                <div class="form__button-bg d-flex align-center justify-center"><p>log in</p></div>
+                                <div class="form__button-border"></div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

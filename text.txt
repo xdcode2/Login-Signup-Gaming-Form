@@ -1,0 +1,21 @@
+================= Login Form =================
+.form__title
+    "log in account"
+
+.form__subtitle
+    "welcome back"
+
+================= Signup Form =================
+.form__title
+    "sign up account"
+
+.form__subtitle
+    "welcome to our website"
+
+================= Border Clip Path =================
+
+"M x,y L x,y H x  V y L x,y  H x V y Z M x,y L x,y V y H x L x,y V x H y Z"
+
+================= Background Clip Path =================
+
+"M x,y V y L x,y H x V y L x,y H x Z"
