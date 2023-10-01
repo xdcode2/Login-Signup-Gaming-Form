@@ -1,6 +1,6 @@
 # Amazing Sign Up / Log In Gaming Form
 
-## Watch video on [YouTube]("https://youtu.be/uzu-3QE_y9w)
+## Watch video on [YouTube](https://youtu.be/uzu-3QE_y9w "amazing log in sign up gaming form")
 
 ### Video content
 
